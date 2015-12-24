@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50EB07731C2C0DDF00070714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07721C2C0DDF00070714 /* main.m */; };
+		50EB07761C2C0DDF00070714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07751C2C0DDF00070714 /* AppDelegate.m */; };
+		50EB07791C2C0DDF00070714 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07781C2C0DDF00070714 /* ViewController.m */; };
+		50EB077C1C2C0DDF00070714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB077A1C2C0DDF00070714 /* Main.storyboard */; };
+		50EB077F1C2C0DDF00070714 /* NoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50EB077D1C2C0DDF00070714 /* NoteBook.xcdatamodeld */; };
+		50EB07811C2C0DDF00070714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB07801C2C0DDF00070714 /* Assets.xcassets */; };
+		50EB07841C2C0DDF00070714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */; };
+		50EB078F1C2C0DDF00070714 /* NoteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB078E1C2C0DDF00070714 /* NoteBookTests.m */; };
+		50EB079A1C2C0DDF00070714 /* NoteBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07991C2C0DDF00070714 /* NoteBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50EB078B1C2C0DDF00070714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50EB07661C2C0DDF00070714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EB076D1C2C0DDF00070714;
+			remoteInfo = NoteBook;
+		};
+		50EB07961C2C0DDF00070714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50EB07661C2C0DDF00070714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EB076D1C2C0DDF00070714;
+			remoteInfo = NoteBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50EB076E1C2C0DDF00070714 /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EB07721C2C0DDF00070714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50EB07741C2C0DDF00070714 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50EB07751C2C0DDF00070714 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50EB07771C2C0DDF00070714 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50EB07781C2C0DDF00070714 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50EB077B1C2C0DDF00070714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50EB077E1C2C0DDF00070714 /* NoteBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteBook.xcdatamodel; sourceTree = "<group>"; };
+		50EB07801C2C0DDF00070714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50EB07831C2C0DDF00070714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50EB07851C2C0DDF00070714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EB078A1C2C0DDF00070714 /* NoteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EB078E1C2C0DDF00070714 /* NoteBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteBookTests.m; sourceTree = "<group>"; };
+		50EB07901C2C0DDF00070714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EB07951C2C0DDF00070714 /* NoteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EB07991C2C0DDF00070714 /* NoteBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteBookUITests.m; sourceTree = "<group>"; };
+		50EB079B1C2C0DDF00070714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50EB076B1C2C0DDF00070714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB07871C2C0DDF00070714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB07921C2C0DDF00070714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50EB07651C2C0DDF00070714 = {
+			isa = PBXGroup;
+			children = (
+				50EB07701C2C0DDF00070714 /* NoteBook */,
+				50EB078D1C2C0DDF00070714 /* NoteBookTests */,
+				50EB07981C2C0DDF00070714 /* NoteBookUITests */,
+				50EB076F1C2C0DDF00070714 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50EB076F1C2C0DDF00070714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50EB076E1C2C0DDF00070714 /* NoteBook.app */,
+				50EB078A1C2C0DDF00070714 /* NoteBookTests.xctest */,
+				50EB07951C2C0DDF00070714 /* NoteBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50EB07701C2C0DDF00070714 /* NoteBook */ = {
+			isa = PBXGroup;
+			children = (
+				50EB07741C2C0DDF00070714 /* AppDelegate.h */,
+				50EB07751C2C0DDF00070714 /* AppDelegate.m */,
+				50EB07771C2C0DDF00070714 /* ViewController.h */,
+				50EB07781C2C0DDF00070714 /* ViewController.m */,
+				50EB077A1C2C0DDF00070714 /* Main.storyboard */,
+				50EB07801C2C0DDF00070714 /* Assets.xcassets */,
+				50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */,
+				50EB07851C2C0DDF00070714 /* Info.plist */,
+				50EB077D1C2C0DDF00070714 /* NoteBook.xcdatamodeld */,
+				50EB07711C2C0DDF00070714 /* Supporting Files */,
+			);
+			path = NoteBook;
+			sourceTree = "<group>";
+		};
+		50EB07711C2C0DDF00070714 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50EB07721C2C0DDF00070714 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50EB078D1C2C0DDF00070714 /* NoteBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EB078E1C2C0DDF00070714 /* NoteBookTests.m */,
+				50EB07901C2C0DDF00070714 /* Info.plist */,
+			);
+			path = NoteBookTests;
+			sourceTree = "<group>";
+		};
+		50EB07981C2C0DDF00070714 /* NoteBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50EB07991C2C0DDF00070714 /* NoteBookUITests.m */,
+				50EB079B1C2C0DDF00070714 /* Info.plist */,
+			);
+			path = NoteBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50EB076D1C2C0DDF00070714 /* NoteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EB079E1C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBook" */;
+			buildPhases = (
+				50EB076A1C2C0DDF00070714 /* Sources */,
+				50EB076B1C2C0DDF00070714 /* Frameworks */,
+				50EB076C1C2C0DDF00070714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteBook;
+			productName = NoteBook;
+			productReference = 50EB076E1C2C0DDF00070714 /* NoteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50EB07891C2C0DDF00070714 /* NoteBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EB07A11C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBookTests" */;
+			buildPhases = (
+				50EB07861C2C0DDF00070714 /* Sources */,
+				50EB07871C2C0DDF00070714 /* Frameworks */,
+				50EB07881C2C0DDF00070714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EB078C1C2C0DDF00070714 /* PBXTargetDependency */,
+			);
+			name = NoteBookTests;
+			productName = NoteBookTests;
+			productReference = 50EB078A1C2C0DDF00070714 /* NoteBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EB07941C2C0DDF00070714 /* NoteBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EB07A41C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBookUITests" */;
+			buildPhases = (
+				50EB07911C2C0DDF00070714 /* Sources */,
+				50EB07921C2C0DDF00070714 /* Frameworks */,
+				50EB07931C2C0DDF00070714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EB07971C2C0DDF00070714 /* PBXTargetDependency */,
+			);
+			name = NoteBookUITests;
+			productName = NoteBookUITests;
+			productReference = 50EB07951C2C0DDF00070714 /* NoteBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50EB07661C2C0DDF00070714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "伏董";
+				TargetAttributes = {
+					50EB076D1C2C0DDF00070714 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4Y2XGWP4C5;
+					};
+					50EB07891C2C0DDF00070714 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4Y2XGWP4C5;
+						TestTargetID = 50EB076D1C2C0DDF00070714;
+					};
+					50EB07941C2C0DDF00070714 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4Y2XGWP4C5;
+						TestTargetID = 50EB076D1C2C0DDF00070714;
+					};
+				};
+			};
+			buildConfigurationList = 50EB07691C2C0DDF00070714 /* Build configuration list for PBXProject "NoteBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50EB07651C2C0DDF00070714;
+			productRefGroup = 50EB076F1C2C0DDF00070714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50EB076D1C2C0DDF00070714 /* NoteBook */,
+				50EB07891C2C0DDF00070714 /* NoteBookTests */,
+				50EB07941C2C0DDF00070714 /* NoteBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50EB076C1C2C0DDF00070714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB07841C2C0DDF00070714 /* LaunchScreen.storyboard in Resources */,
+				50EB07811C2C0DDF00070714 /* Assets.xcassets in Resources */,
+				50EB077C1C2C0DDF00070714 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB07881C2C0DDF00070714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB07931C2C0DDF00070714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50EB076A1C2C0DDF00070714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB07791C2C0DDF00070714 /* ViewController.m in Sources */,
+				50EB07761C2C0DDF00070714 /* AppDelegate.m in Sources */,
+				50EB077F1C2C0DDF00070714 /* NoteBook.xcdatamodeld in Sources */,
+				50EB07731C2C0DDF00070714 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB07861C2C0DDF00070714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB078F1C2C0DDF00070714 /* NoteBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB07911C2C0DDF00070714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB079A1C2C0DDF00070714 /* NoteBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50EB078C1C2C0DDF00070714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EB076D1C2C0DDF00070714 /* NoteBook */;
+			targetProxy = 50EB078B1C2C0DDF00070714 /* PBXContainerItemProxy */;
+		};
+		50EB07971C2C0DDF00070714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EB076D1C2C0DDF00070714 /* NoteBook */;
+			targetProxy = 50EB07961C2C0DDF00070714 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50EB077A1C2C0DDF00070714 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EB077B1C2C0DDF00070714 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EB07831C2C0DDF00070714 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50EB079C1C2C0DDF00070714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50EB079D1C2C0DDF00070714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50EB079F1C2C0DDF00070714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50EB07A01C2C0DDF00070714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50EB07A21C2C0DDF00070714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NoteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteBook.app/NoteBook";
+			};
+			name = Debug;
+		};
+		50EB07A31C2C0DDF00070714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NoteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteBook.app/NoteBook";
+			};
+			name = Release;
+		};
+		50EB07A51C2C0DDF00070714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NoteBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NoteBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		50EB07A61C2C0DDF00070714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NoteBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NoteBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50EB07691C2C0DDF00070714 /* Build configuration list for PBXProject "NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EB079C1C2C0DDF00070714 /* Debug */,
+				50EB079D1C2C0DDF00070714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EB079E1C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EB079F1C2C0DDF00070714 /* Debug */,
+				50EB07A01C2C0DDF00070714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50EB07A11C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EB07A21C2C0DDF00070714 /* Debug */,
+				50EB07A31C2C0DDF00070714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50EB07A41C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EB07A51C2C0DDF00070714 /* Debug */,
+				50EB07A61C2C0DDF00070714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50EB077D1C2C0DDF00070714 /* NoteBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50EB077E1C2C0DDF00070714 /* NoteBook.xcdatamodel */,
+			);
+			currentVersion = 50EB077E1C2C0DDF00070714 /* NoteBook.xcdatamodel */;
+			path = NoteBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50EB07661C2C0DDF00070714 /* Project object */;
+}
