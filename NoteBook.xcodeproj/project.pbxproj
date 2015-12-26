@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50019A461C2D4E9A00CC174F /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A451C2D4E9A00CC174F /* BasicViewController.m */; };
+		50019A4C1C2D509000CC174F /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A4B1C2D509000CC174F /* CustomTabBarController.m */; };
+		50019A581C2D5FEF00CC174F /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A571C2D5FEF00CC174F /* NoteViewController.m */; };
+		50019A5B1C2D5FFA00CC174F /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A5A1C2D5FFA00CC174F /* UsersViewController.m */; };
+		50019A5E1C2D600200CC174F /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A5D1C2D600200CC174F /* AboutMeViewController.m */; };
+		50AF50701C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF506E1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m */; };
+		50AF50711C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF506F1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib */; };
 		50EB07731C2C0DDF00070714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07721C2C0DDF00070714 /* main.m */; };
 		50EB07761C2C0DDF00070714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07751C2C0DDF00070714 /* AppDelegate.m */; };
-		50EB07791C2C0DDF00070714 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07781C2C0DDF00070714 /* ViewController.m */; };
-		50EB077C1C2C0DDF00070714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB077A1C2C0DDF00070714 /* Main.storyboard */; };
 		50EB077F1C2C0DDF00070714 /* NoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50EB077D1C2C0DDF00070714 /* NoteBook.xcdatamodeld */; };
 		50EB07811C2C0DDF00070714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB07801C2C0DDF00070714 /* Assets.xcassets */; };
 		50EB07841C2C0DDF00070714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */; };
@@ -36,13 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50019A441C2D4E9A00CC174F /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		50019A451C2D4E9A00CC174F /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		50019A4A1C2D509000CC174F /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		50019A4B1C2D509000CC174F /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		50019A561C2D5FEF00CC174F /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteViewController.h; path = ../NoteViewController.h; sourceTree = "<group>"; };
+		50019A571C2D5FEF00CC174F /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteViewController.m; path = ../NoteViewController.m; sourceTree = "<group>"; };
+		50019A591C2D5FFA00CC174F /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersViewController.h; path = ../UsersViewController.h; sourceTree = "<group>"; };
+		50019A5A1C2D5FFA00CC174F /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersViewController.m; path = ../UsersViewController.m; sourceTree = "<group>"; };
+		50019A5C1C2D600200CC174F /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutMeViewController.h; path = ../AboutMeViewController.h; sourceTree = "<group>"; };
+		50019A5D1C2D600200CC174F /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutMeViewController.m; path = ../AboutMeViewController.m; sourceTree = "<group>"; };
+		50AF50661C2E73F900ADF3B4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		50AF506D1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeTableViewCell.h; sourceTree = "<group>"; };
+		50AF506E1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeTableViewCell.m; sourceTree = "<group>"; };
+		50AF506F1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutMeTableViewCell.xib; sourceTree = "<group>"; };
 		50EB076E1C2C0DDF00070714 /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EB07721C2C0DDF00070714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50EB07741C2C0DDF00070714 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50EB07751C2C0DDF00070714 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		50EB07771C2C0DDF00070714 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		50EB07781C2C0DDF00070714 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		50EB077B1C2C0DDF00070714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50EB077E1C2C0DDF00070714 /* NoteBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteBook.xcdatamodel; sourceTree = "<group>"; };
 		50EB07801C2C0DDF00070714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50EB07831C2C0DDF00070714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +96,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50019A401C2D4E4E00CC174F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50019A411C2D4E4E00CC174F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50019A421C2D4E4E00CC174F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50019A441C2D4E9A00CC174F /* BasicViewController.h */,
+				50019A451C2D4E9A00CC174F /* BasicViewController.m */,
+				50AF50671C2EDD5700ADF3B4 /* aboutme */,
+				50AF50681C2EDD5700ADF3B4 /* note */,
+				50AF50691C2EDD5700ADF3B4 /* users */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50019A431C2D4E4E00CC174F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50AF506C1C2EDE1C00ADF3B4 /* users */,
+				50AF506B1C2EDE0F00ADF3B4 /* aboutme */,
+				50AF506A1C2EDDFD00ADF3B4 /* note */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50AF50671C2EDD5700ADF3B4 /* aboutme */ = {
+			isa = PBXGroup;
+			children = (
+				50019A5C1C2D600200CC174F /* AboutMeViewController.h */,
+				50019A5D1C2D600200CC174F /* AboutMeViewController.m */,
+			);
+			path = aboutme;
+			sourceTree = "<group>";
+		};
+		50AF50681C2EDD5700ADF3B4 /* note */ = {
+			isa = PBXGroup;
+			children = (
+				50019A561C2D5FEF00CC174F /* NoteViewController.h */,
+				50019A571C2D5FEF00CC174F /* NoteViewController.m */,
+			);
+			path = note;
+			sourceTree = "<group>";
+		};
+		50AF50691C2EDD5700ADF3B4 /* users */ = {
+			isa = PBXGroup;
+			children = (
+				50019A591C2D5FFA00CC174F /* UsersViewController.h */,
+				50019A5A1C2D5FFA00CC174F /* UsersViewController.m */,
+			);
+			path = users;
+			sourceTree = "<group>";
+		};
+		50AF506A1C2EDDFD00ADF3B4 /* note */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = note;
+			sourceTree = "<group>";
+		};
+		50AF506B1C2EDE0F00ADF3B4 /* aboutme */ = {
+			isa = PBXGroup;
+			children = (
+				50AF506D1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.h */,
+				50AF506E1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m */,
+				50AF506F1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib */,
+			);
+			name = aboutme;
+			sourceTree = "<group>";
+		};
+		50AF506C1C2EDE1C00ADF3B4 /* users */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = users;
+			sourceTree = "<group>";
+		};
 		50EB07651C2C0DDF00070714 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +206,14 @@
 		50EB07701C2C0DDF00070714 /* NoteBook */ = {
 			isa = PBXGroup;
 			children = (
+				50019A401C2D4E4E00CC174F /* Model */,
+				50019A411C2D4E4E00CC174F /* Resources */,
+				50019A421C2D4E4E00CC174F /* ViewControllers */,
+				50019A431C2D4E4E00CC174F /* Views */,
 				50EB07741C2C0DDF00070714 /* AppDelegate.h */,
 				50EB07751C2C0DDF00070714 /* AppDelegate.m */,
-				50EB07771C2C0DDF00070714 /* ViewController.h */,
-				50EB07781C2C0DDF00070714 /* ViewController.m */,
-				50EB077A1C2C0DDF00070714 /* Main.storyboard */,
+				50019A4A1C2D509000CC174F /* CustomTabBarController.h */,
+				50019A4B1C2D509000CC174F /* CustomTabBarController.m */,
 				50EB07801C2C0DDF00070714 /* Assets.xcassets */,
 				50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */,
 				50EB07851C2C0DDF00070714 /* Info.plist */,
@@ -121,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				50EB07721C2C0DDF00070714 /* main.m */,
+				50AF50661C2E73F900ADF3B4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -249,9 +356,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AF50711C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib in Resources */,
 				50EB07841C2C0DDF00070714 /* LaunchScreen.storyboard in Resources */,
 				50EB07811C2C0DDF00070714 /* Assets.xcassets in Resources */,
-				50EB077C1C2C0DDF00070714 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +383,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50EB07791C2C0DDF00070714 /* ViewController.m in Sources */,
+				50019A5B1C2D5FFA00CC174F /* UsersViewController.m in Sources */,
 				50EB07761C2C0DDF00070714 /* AppDelegate.m in Sources */,
+				50019A461C2D4E9A00CC174F /* BasicViewController.m in Sources */,
 				50EB077F1C2C0DDF00070714 /* NoteBook.xcdatamodeld in Sources */,
+				50019A4C1C2D509000CC174F /* CustomTabBarController.m in Sources */,
+				50019A581C2D5FEF00CC174F /* NoteViewController.m in Sources */,
+				50AF50701C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m in Sources */,
+				50019A5E1C2D600200CC174F /* AboutMeViewController.m in Sources */,
 				50EB07731C2C0DDF00070714 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,14 +427,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		50EB077A1C2C0DDF00070714 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50EB077B1C2C0DDF00070714 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,7 +455,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: huanhuan long (U79UJP93AX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: huanhuan long (U79UJP93AX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -373,6 +478,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9c905876-d36b-46de-adfb-2c429a1be9cf";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -394,7 +500,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: huanhuan long (U79UJP93AX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: huanhuan long (U79UJP93AX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -409,6 +516,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "9c905876-d36b-46de-adfb-2c429a1be9cf";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -418,10 +526,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: huanhuan long (U79UJP93AX)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NoteBook/PrefixHeader.pch";
 				INFOPLIST_FILE = NoteBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c905876-d36b-46de-adfb-2c429a1be9cf";
 			};
 			name = Debug;
 		};
@@ -429,10 +541,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: huanhuan long (U79UJP93AX)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NoteBook/PrefixHeader.pch";
 				INFOPLIST_FILE = NoteBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edu.fudong.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c905876-d36b-46de-adfb-2c429a1be9cf";
 			};
 			name = Release;
 		};
@@ -503,6 +619,7 @@
 				50EB07A01C2C0DDF00070714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50EB07A11C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBookTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +628,7 @@
 				50EB07A31C2C0DDF00070714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50EB07A41C2C0DDF00070714 /* Build configuration list for PBXNativeTarget "NoteBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +637,7 @@
 				50EB07A61C2C0DDF00070714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
