@@ -7,7 +7,7 @@
 //
 
 #import "NoteViewController.h"
-
+#import "AddNoteViewController.h"
 @interface NoteViewController ()
 
 @end
@@ -54,9 +54,15 @@
 
 - (void)searchClicked{
     
+    
 }
 
 - (void)addClicked{
+    
+    AddNoteViewController *addNoteVC = [[AddNoteViewController alloc] init];
+    addNoteVC.title = @"添加日记";
+    
+    [self.navigationController pushViewController:addNoteVC animated:YES];
 
 }
 

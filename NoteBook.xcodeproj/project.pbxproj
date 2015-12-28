@@ -12,6 +12,7 @@
 		50019A581C2D5FEF00CC174F /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A571C2D5FEF00CC174F /* NoteViewController.m */; };
 		50019A5B1C2D5FFA00CC174F /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A5A1C2D5FFA00CC174F /* UsersViewController.m */; };
 		50019A5E1C2D600200CC174F /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A5D1C2D600200CC174F /* AboutMeViewController.m */; };
+		50AE268A1C2FED0B0042233E /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE26891C2FED0B0042233E /* AddNoteViewController.m */; };
 		50AF50701C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF506E1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m */; };
 		50AF50711C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF506F1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib */; };
 		50EB07731C2C0DDF00070714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07721C2C0DDF00070714 /* main.m */; };
@@ -51,6 +52,8 @@
 		50019A5A1C2D5FFA00CC174F /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersViewController.m; path = ../UsersViewController.m; sourceTree = "<group>"; };
 		50019A5C1C2D600200CC174F /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutMeViewController.h; path = ../AboutMeViewController.h; sourceTree = "<group>"; };
 		50019A5D1C2D600200CC174F /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutMeViewController.m; path = ../AboutMeViewController.m; sourceTree = "<group>"; };
+		50AE26881C2FED0B0042233E /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		50AE26891C2FED0B0042233E /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
 		50AF50661C2E73F900ADF3B4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		50AF506D1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeTableViewCell.h; sourceTree = "<group>"; };
 		50AF506E1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeTableViewCell.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 			children = (
 				50019A561C2D5FEF00CC174F /* NoteViewController.h */,
 				50019A571C2D5FEF00CC174F /* NoteViewController.m */,
+				50AE26881C2FED0B0042233E /* AddNoteViewController.h */,
+				50AE26891C2FED0B0042233E /* AddNoteViewController.m */,
 			);
 			path = note;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 				50EB07761C2C0DDF00070714 /* AppDelegate.m in Sources */,
 				50019A461C2D4E9A00CC174F /* BasicViewController.m in Sources */,
 				50EB077F1C2C0DDF00070714 /* NoteBook.xcdatamodeld in Sources */,
+				50AE268A1C2FED0B0042233E /* AddNoteViewController.m in Sources */,
 				50019A4C1C2D509000CC174F /* CustomTabBarController.m in Sources */,
 				50019A581C2D5FEF00CC174F /* NoteViewController.m in Sources */,
 				50AF50701C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m in Sources */,
