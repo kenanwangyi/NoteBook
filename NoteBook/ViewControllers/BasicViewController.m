@@ -25,6 +25,7 @@
     
     //设置navigation标题的颜色
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    
 }
 
 
