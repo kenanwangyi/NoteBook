@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
+    
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.17f green:0.56f blue:0.34f alpha:1.00f];
     
     //设置navigation标题的颜色
