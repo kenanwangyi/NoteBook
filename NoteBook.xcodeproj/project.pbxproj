@@ -12,12 +12,12 @@
 		50019A581C2D5FEF00CC174F /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A571C2D5FEF00CC174F /* NoteViewController.m */; };
 		50019A5B1C2D5FFA00CC174F /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A5A1C2D5FFA00CC174F /* UsersViewController.m */; };
 		50019A5E1C2D600200CC174F /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50019A5D1C2D600200CC174F /* AboutMeViewController.m */; };
+		5010C8781C32884800935F69 /* ToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5010C8771C32884800935F69 /* ToolsView.m */; };
 		50AE268A1C2FED0B0042233E /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE26891C2FED0B0042233E /* AddNoteViewController.m */; };
 		50AF50701C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF506E1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.m */; };
 		50AF50711C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF506F1C2EDE4D00ADF3B4 /* AboutMeTableViewCell.xib */; };
 		50EB07731C2C0DDF00070714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07721C2C0DDF00070714 /* main.m */; };
 		50EB07761C2C0DDF00070714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB07751C2C0DDF00070714 /* AppDelegate.m */; };
-		50EB077F1C2C0DDF00070714 /* NoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50EB077D1C2C0DDF00070714 /* NoteBook.xcdatamodeld */; };
 		50EB07811C2C0DDF00070714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB07801C2C0DDF00070714 /* Assets.xcassets */; };
 		50EB07841C2C0DDF00070714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */; };
 		50EB078F1C2C0DDF00070714 /* NoteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB078E1C2C0DDF00070714 /* NoteBookTests.m */; };
@@ -52,6 +52,8 @@
 		50019A5A1C2D5FFA00CC174F /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersViewController.m; path = ../UsersViewController.m; sourceTree = "<group>"; };
 		50019A5C1C2D600200CC174F /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutMeViewController.h; path = ../AboutMeViewController.h; sourceTree = "<group>"; };
 		50019A5D1C2D600200CC174F /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutMeViewController.m; path = ../AboutMeViewController.m; sourceTree = "<group>"; };
+		5010C8761C32884800935F69 /* ToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsView.h; sourceTree = "<group>"; };
+		5010C8771C32884800935F69 /* ToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolsView.m; sourceTree = "<group>"; };
 		50AE26881C2FED0B0042233E /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
 		50AE26891C2FED0B0042233E /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
 		50AF50661C2E73F900ADF3B4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -62,7 +64,6 @@
 		50EB07721C2C0DDF00070714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50EB07741C2C0DDF00070714 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50EB07751C2C0DDF00070714 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		50EB077E1C2C0DDF00070714 /* NoteBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteBook.xcdatamodel; sourceTree = "<group>"; };
 		50EB07801C2C0DDF00070714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50EB07831C2C0DDF00070714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50EB07851C2C0DDF00070714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +129,8 @@
 		50019A431C2D4E4E00CC174F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5010C8761C32884800935F69 /* ToolsView.h */,
+				5010C8771C32884800935F69 /* ToolsView.m */,
 				50AF506C1C2EDE1C00ADF3B4 /* users */,
 				50AF506B1C2EDE0F00ADF3B4 /* aboutme */,
 				50AF506A1C2EDDFD00ADF3B4 /* note */,
@@ -222,7 +225,6 @@
 				50EB07801C2C0DDF00070714 /* Assets.xcassets */,
 				50EB07821C2C0DDF00070714 /* LaunchScreen.storyboard */,
 				50EB07851C2C0DDF00070714 /* Info.plist */,
-				50EB077D1C2C0DDF00070714 /* NoteBook.xcdatamodeld */,
 				50EB07711C2C0DDF00070714 /* Supporting Files */,
 			);
 			path = NoteBook;
@@ -391,7 +393,7 @@
 				50019A5B1C2D5FFA00CC174F /* UsersViewController.m in Sources */,
 				50EB07761C2C0DDF00070714 /* AppDelegate.m in Sources */,
 				50019A461C2D4E9A00CC174F /* BasicViewController.m in Sources */,
-				50EB077F1C2C0DDF00070714 /* NoteBook.xcdatamodeld in Sources */,
+				5010C8781C32884800935F69 /* ToolsView.m in Sources */,
 				50AE268A1C2FED0B0042233E /* AddNoteViewController.m in Sources */,
 				50019A4C1C2D509000CC174F /* CustomTabBarController.m in Sources */,
 				50019A581C2D5FEF00CC174F /* NoteViewController.m in Sources */,
@@ -646,19 +648,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		50EB077D1C2C0DDF00070714 /* NoteBook.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				50EB077E1C2C0DDF00070714 /* NoteBook.xcdatamodel */,
-			);
-			currentVersion = 50EB077E1C2C0DDF00070714 /* NoteBook.xcdatamodel */;
-			path = NoteBook.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 50EB07661C2C0DDF00070714 /* Project object */;
 }

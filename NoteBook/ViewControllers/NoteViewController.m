@@ -25,24 +25,11 @@
     
     self.title = @"笔记";
     
-    UIButton *calender = [UIButton buttonWithType:UIButtonTypeCustom];
-    calender.frame = CGRectMake(0, 0, 40, 40);
-    [calender setImage:imageRender(@"calender") forState:UIControlStateNormal];
-    [calender addTarget:self action:@selector(calendarClicked) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *calenderButton = [[UIBarButtonItem alloc] initWithCustomView:calender];
-    
-    
-    UIButton *search = [UIButton buttonWithType:UIButtonTypeCustom];
-    search.frame = CGRectMake(0, 0, 40, 40);
-    [search setImage:imageRender(@"search") forState:UIControlStateNormal];
-    [search addTarget:self action:@selector(searchClicked) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithCustomView:search];
-    
-    UIButton *add = [UIButton buttonWithType:UIButtonTypeCustom];
-    add.frame = CGRectMake(0, 0, 40, 40);
-    [add setImage:imageRender(@"addnote") forState:UIControlStateNormal];
-    [add addTarget:self action:@selector(addClicked) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithCustomView:add];
+    UIBarButtonItem *calenderButton = [ToolsView createButtonWithFrame:CGRectMake(0, 0, 40, 40) withImage:imageRender(@"calender") withTarget:self action:@selector(calendarClicked)];
+
+    UIBarButtonItem *searchButton = [ToolsView createButtonWithFrame:CGRectMake(0, 0, 40, 40) withImage:imageRender(@"search") withTarget:self action:@selector(searchClicked)];
+
+    UIBarButtonItem *addButton = [ToolsView createButtonWithFrame:CGRectMake(0, 0, 40, 40) withImage:imageRender(@"addnote") withTarget:self action:@selector(addClicked)];
     
     self.navigationItem.leftBarButtonItems = @[calenderButton,searchButton];
     self.navigationItem.rightBarButtonItem = addButton;
@@ -62,8 +49,10 @@
     AddNoteViewController *addNoteVC = [[AddNoteViewController alloc] init];
     addNoteVC.title = @"添加日记";
     
+    addNoteVC.hidesBottomBarWhenPushed = YES;
+    
+    
     [self.navigationController pushViewController:addNoteVC animated:YES];
-
 }
 
 
